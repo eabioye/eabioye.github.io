@@ -2,118 +2,97 @@
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
-# Content configuration version
-version: 2
-
 # Personal info
 name: Emmanuel Abioye
-title: BSc. Electrical Engineering Student
-email: eabioye@ualberta.ca
-website: eabioye.github.io
+title: Electrical Engineering Student
+email: eabloye@ualberta.ca
+website: linkedin.com/in/eabloye/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: facespics
-github_username:  eabioye
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
-linkedin_username: eabioye
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+linkedin_username: eabloye
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Emmanuel and I'm a final year student at the University of Albera studying Electrical Engineering. I've studied courses and done projects related to circuits, microprocessors, electronic devices, embedded system design, control systems, and analog electronics. I am proficient in C, MATLAB, and circuit simulation tools like LTspice. My goal is to apply these skills in a practical setting and learn many more things
+about_content: |
+  Electrical Engineering student at the University of Alberta (Expected Graduation: 2025). Passionate about embedded systems, analog electronics, and sustainable hardware design. Proven track record in collaborative projects, technical prototyping, and hands-on assembly work.
 
-  I have taken courses on the following topics: <mark>Control Systems</mark> , <mark>Machine Learning and Data Analysis</mark>, <mark>Wireless Communications</mark>, and <mark>Power Electronics</mark>.
+  Technical Skills: <mark>Embedded C</mark>, <mark>Altium Designer</mark>, <mark>MPLAB X IDE</mark>, <mark>PCB Design</mark>, <mark>Analog/Digital Circuit Simulation</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Smart Home Controller Hub
+        title: Smart Home Controller Hub (E2C2 Competition)
+        caption: Sep 2024 - Sep 2024 | Top 4 out of 20 teams
         description: |
-          - Collaborated with team members to develop a sustainable household device prototype under 12 hours as part of a Hardware Design competition, earning a top 4 placement
-          - Designed featuring the ATMega328p, a DHT11 for humidity and temperature, an LCD, PS2 Analog stick, a motion sensor, LEDs and buttons
-          - Programmed to display menus for general system information, temperatue control, and motion detection alert using the LED
-         
-             
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+          - Designed a prototype using ATmega328p, DHT11 sensor, LCD, and motion sensors.
+          - Programmed menu navigation and LED alerts for temperature/motion detection.
+          - Achieved high scores in reliability and technical presentation.
+
+      - layout: top-middle
+        title: Differential Amplifier – Analog Electronics
+        caption: Jan 2024 - Apr 2024 | University of Alberta
+        description: |
+          - Built a differential amplifier with long-tailed resistor and current mirrors.
+          - Simulated gains (43dB Differential Mode, 39dB CMRR) and validated with experimental models.
+          - Analyzed DC bias voltages, currents, and common-mode rejection ratios.
+
+      - layout: top-middle
+        title: Timer-Stopwatch (Embedded Devices)
+        caption: Sep 2023 - Dec 2023 | Graded 89%
+        description: |
+          - Developed a C-based timer/stopwatch using ATmega328 and ADC for menu navigation.
+          - Collaborated on proposals and cost sheets; demonstrated interrupts for timekeeping.
+
+  - title: Experience
+    layout: list
     content:
       - layout: left
-        title: Nanoprecise Sci. Corp
-        link: nanoprecise.io
-        # link_text: boringcompany.com
-        sub_title: Hardware Assembler
-        caption: October 2024 - January 2025
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            - Assembled sensor units and other hardware according to supervisor's detailed instructions
-            - Performed routine testing and calibration of assembled sensors
-            - Inspected components to ensure quality standards are met
-            - Assisted in fulfillment, packing, or any other tasks as instructed by lead
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+        title: Nanoprecise Sci Corp
+        sub_title: Mechanical Assembler (Part-Time)
+        caption: Oct 2024 – Jan 2025
+        description: |
+          - Assembled and calibrated sensor units, ensuring quality standards.
+          - Collaborated with engineers to optimize assembly processes.
+          - Assisted in fulfillment and testing tasks.
+
+      - layout: left
+        title: Autonomous Robotic Vehicle Project
+        sub_title: Electrical Team Member (Volunteer)
+        caption: Jun 2024 – Dec 2024
+        description: |
+          - Soldered components and labeled robot run data.
+          - Reviewed PCB designs using Altium Designer.
+
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: University of Alberta
-        caption: 2021 - 2025
         sub_title: BSc Electrical Engineering
- #       quote: >
- #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at the UofA I learnt many key skills such as collaboration, complex problem solving, research and working to tight deadlines. 
-          I spent my free time as a voluntary member of the *Autonomous Robotic Vehicle Project* taking on tasks such as crimping, soldering and labelling of obstacles and targets for the vehicle navigation.
+        caption: Expected 2025
+        description: |
+          Relevant Coursework: 
+          - Power Electronics, Data Analysis & Machine Learning, Control Systems
+          - Digital Communications, Multimedia Signal Processing, Data Communication Networks
 
-  - title: A Little More About Me
+  - title: Technical Expertise
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Some of my interests and hobbies are:
-      - Playing soccer occasionally
-      - Gaming
-      - Building LEGO
+    content: |
+      **Tools & Technologies:**  
+      ATmega328p, DHT11 Sensors, MPLAB X IDE, AVR-GCC, Altium Designer, Oscilloscopes  
       
-#      Look at this cool image  
-#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      **Core Competencies:**  
+      Circuit Design, Embedded Programming, Sensor Integration, Technical Documentation
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
