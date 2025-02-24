@@ -62,7 +62,7 @@ content:
           - Collaborated with team members to develop a sustainable household device prototype under 12 hours as part of a Hardware Design competition, earning a top 4 placement
           - Designed featuring the ATMega328p, a DHT11 for humidity and temperature, an LCD, PS2 Analog stick, a motion sensor, LEDs and buttons
           - Programmed to display menus for general system information, temperatue control, and motion detection alert using the LED
-        title: Timer Stopwatch 
+         
         #link: github.com/sproogen
         # link_text: Project Website
         additional_links:
