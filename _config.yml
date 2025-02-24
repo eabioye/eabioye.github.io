@@ -84,10 +84,10 @@ content:
     layout: text
     content: |
       **Tools & Technologies:**  
-      ATmega328p, DHT11 Sensors, MPLAB X IDE, AVR-GCC, Altium Designer, Oscilloscopes  
+      MATLAB, Python, MPLAB X IDE, AVR-GCC, Altium Designer, LTSpice, Oscilloscopes  
       
       **Core Competencies:**  
-      Circuit Design, Embedded Programming, Sensor Integration, Technical Documentation
+      Circuit Design, Embedded Programming, Technical Documentation
 
 # Footer
 footer_show_references: true
